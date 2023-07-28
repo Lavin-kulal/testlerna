@@ -1,0 +1,22 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "@types/react": "^18.2.17",
+    "lerna": "^7.1.4",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "build": "lerna run tsc",
+    "test": "lerna run test",
+    "publish": "lerna publish --no-private"
+  }
+}
