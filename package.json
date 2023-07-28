@@ -6,7 +6,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Lavin-kulal/testlerna"
+    "url": "git@github.com:Lavin-kulal/testlerna/tree/master"
+  },
+  "publishConfig": {
+    "registry": "https://github.com/Lavin-kulal/testlerna"
   },
   "devDependencies": {
     "@types/node": "^20.4.5",
@@ -17,6 +20,7 @@
   "scripts": {
     "build": "lerna run tsc",
     "test": "lerna run test",
-    "publish": "lerna publish --no-private"
+    "publish": "lerna publish --no-private",
+    "publish:from-package": "npx lerna --no-private publish from-package"
   }
 }
