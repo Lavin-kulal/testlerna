@@ -19,5 +19,6 @@
   },
   "dependencies": {
     "my-button": "^0.0.1"
-  }
+  },
+  "gitHead": "d7d3320d9c11c8edafb45c39f819dc3a9ffeaf78"
 }
