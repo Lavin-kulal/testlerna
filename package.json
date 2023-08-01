@@ -1,15 +1,15 @@
 {
   "name": "root",
-  "private": true,
+  "private": false,
   "workspaces": [
     "packages/*"
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:Lavin-kulal/testlerna/tree/master"
+    "url": "git@github.com:Lavin-kulal/testlerna"
   },
   "publishConfig": {
-    "registry": "https://github.com/Lavin-kulal/testlerna"
+    "registry": "git@github.com:Lavin-kulal/testlerna.git"
   },
   "devDependencies": {
     "@types/node": "^20.4.5",
