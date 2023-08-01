@@ -1,6 +1,6 @@
 {
   "name": "my-input",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "> TODO: description",
   "author": "Laveen <lavink32@gmail.com>",
   "homepage": "",
@@ -18,7 +18,7 @@
     "test": "node ./__tests__/my-input.test.js"
   },
   "dependencies": {
-    "my-button": "^0.0.1"
+    "my-button": "^0.0.2"
   },
   "gitHead": "d7d3320d9c11c8edafb45c39f819dc3a9ffeaf78"
 }
