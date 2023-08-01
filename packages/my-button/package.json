@@ -1,5 +1,5 @@
 {
-  "name": "my-button",
+  "name": "@lavinscoped/my-button",
   "version": "0.0.2",
   "description": "> TODO: description",
   "author": "Laveen <lavink32@gmail.com>",
@@ -19,5 +19,5 @@
     "tsc": "tsc",
     "test": "node ./__tests__/my-button.test.js"
   },
-  "gitHead": "d7d3320d9c11c8edafb45c39f819dc3a9ffeaf78"
+  "gitHead": "86050dacc3b31b2f197b53f0a92976be5c9f6d9a"
 }

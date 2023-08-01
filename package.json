@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "lavinscoped",
   "private": false,
   "workspaces": [
     "packages/*"
